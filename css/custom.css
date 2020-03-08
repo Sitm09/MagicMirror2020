@@ -1,0 +1,97 @@
+*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS                                        *
+ *                                                   *
+ * By Michael Teeuw http://michaelteeuw.nl           *
+ * MIT Licensed.                                     *
+ *                                                   *
+ * Add any custom CSS below.                         *
+ * Changes to this files will be ignored by GIT. *
+ ***************************************************
+body
+{
+
+}
+
+.kimball,
+.loopbrown {
+ background-color: #4A1F16;
+ text-align: center;
+ color: white;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
+}
+
+.ninety5th,
+.howard {
+ background-color: red;
+ text-align: center;
+ color: white;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
+}
+
+.linden,
+.looppurple {
+ background-color: indigo;
+ text-align: center;
+ color: white;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
+}
+
+.region.top.middleright {
+  left: 47.5vw;
+  /* -moz-transform: translateX(-33%);
+  -o-transform: translateX(-33%);
+  -webkit-transform: translateX(-33%);
+  -ms-transform: translateX(-33%);
+  transform: translateX(-33%); */
+}
+
+.region.top.middleleft {
+  left: 0vw;
+  /* -moz-transform: translateX(-33%);
+  -o-transform: translateX(-33%);
+  -webkit-transform: translateX(-33%);
+  -ms-transform: translateX(-33%);
+  transform: translateX(-33%); */
+}
+
+
+.region.top.middleright,
+.region.top.middleleft {
+  top: 25vh;
+  max-height: 33vh;
+  width: 45vw;
+}
+
+
+.region.top.lefthalf {
+  left: 0vw;
+  /* -moz-transform: translateX(-33%);
+  -o-transform: translateX(-33%);
+  -webkit-transform: translateX(-33%);
+  -ms-transform: translateX(-33%);
+  transform: translateX(-33%); */
+}
+
+.region.top.righthalf {
+  left: 47.5vw;
+  /* -moz-transform: translateX(-33%);
+  -o-transform: translateX(-33%);
+  -webkit-transform: translateX(-33%);
+  -ms-transform: translateX(-33%);
+  transform: translateX(-33%); */
+}
+
+.region.top.righthalf,
+.region.top.lefthalf {
+  top: 60vh;
+  max-height: 30vh;
+  width: 45vw;
+  overflow-y: hidden;
+}
