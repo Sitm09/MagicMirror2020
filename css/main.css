@@ -143,10 +143,10 @@ sup {
 
 .region.fullscreen {
   position: absolute;
-  top: -60px;
-  left: -60px;
-  right: -60px;
-  bottom: -60px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   pointer-events: none;
 }
 
