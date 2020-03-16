@@ -132,7 +132,7 @@ var config = {
 				lang: "en-US"
      						},
     					},
-    			addons: false,
+    			addons: true,
   				}
 
 		},
@@ -149,6 +149,19 @@ var config = {
       					},
     				},
   		},
+		{
+     		module: "MMM-Assistant2Display",
+     		config:	{
+       			ui: "AMk2", 
+       			displayDelay: 30 * 1000,
+       			scrollSpeed: 25,
+       			scrollStart: 1000,
+      			proxyPort: 8081,
+       			debug: false,
+       			verbose: false,
+       			sandbox: null
+    			}
+ 		},
 		{
 			module: "MagicMirror-QuoteCatalog",
 			position: 'top_righthalf',
